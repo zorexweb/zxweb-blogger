@@ -1,8 +1,7 @@
 @font-face {
     font-family: SolaimanLipiNormal;
     src: url(fonts/solaiman-lipi.eot);
-    src: url(fonts/solaiman-lipi.eot) format("embedded-opentype"), url(fonts/solaiman-lipi.woff) format("woff"), url(assets/fonts/solaiman-lipi.ttf) format("truetype"),
-        url(fonts/solaiman-lipi.svg#SolaimanLipiNormal) format("svg");
+    src: url(fonts/solaiman-lipi.eot) format("embedded-opentype"), url(fonts/solaiman-lipi.woff) format("woff"), url(fonts/solaiman-lipi.ttf) format("truetype"), url(fonts/solaiman-lipi.svg#SolaimanLipiNormal) format("svg");
     font-weight: 400;
     font-style: normal;
 }
