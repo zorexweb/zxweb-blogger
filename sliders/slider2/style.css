@@ -1,0 +1,109 @@
+@font-face {
+    font-family: SolaimanLipiNormal;
+    src: url(fonts/solaiman-lipi.eot);
+    src: url(fonts/solaiman-lipi.eot) format("embedded-opentype"), url(fonts/solaiman-lipi.woff) format("woff"), url(assets/fonts/solaiman-lipi.ttf) format("truetype"),
+        url(fonts/solaiman-lipi.svg#SolaimanLipiNormal) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+a:focus,
+button:focous,
+input:focous,
+textarea:focous {
+    outline: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body,
+html {
+    height: 100%;
+}
+body {
+    font-family: SolaimanLipiNormal;
+    font-size: 16px;
+    line-height: 23px;
+}
+a:hover {
+    text-decoration: none;
+}
+.home_gallery_section {
+    background-image: url(img/home_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.home_gallery_section:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    content: "";
+}
+.home_silde_contant {
+    padding: 35px 20px 20px 0;
+    color: #fff;
+    font-size: 23px;
+    line-height: 27px;
+}
+.home_title {
+    font-size: 35px;
+    line-height: 39px;
+    color: #f2f2f2;
+    margin-bottom: 15px;
+}
+.home_btn {
+    margin-top: 20px;
+}
+.home_btn a {
+    background: #fff;
+    color: #159be6;
+    padding: 7px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    transition: 0.8s;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid#036aca;
+    opacity: 0.8;
+}
+.home_btn:hover a {
+    background: #159be6;
+    color: #fff;
+}
+.home_slider_sec .owl-nav button {
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+    line-height: 30px;
+    transition: 0.4s;
+    color: #159be6;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 2px;
+    border: 2px solid#159be6;
+    left: -80px;
+    opacity: 0.4;
+}
+.home_slider_sec .owl-nav button:hover {
+    transform: scale(1.1);
+    background: #159be6;
+    color: #fff;
+}
+.home_slider_sec .owl-nav button.owl-next {
+    left: auto;
+    right: -80px;
+}
+.slider-image-01 img {
+    margin-bottom: -1px;
+    border-radius: 10px 10px 10px 10px;
+}
